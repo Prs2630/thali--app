@@ -26,13 +26,13 @@ const Product = ({ data }) => {
 
   return (<>
     <div className='container  border  mt-2' >
-    {/* <div className='item'> */}
-      <img src={data.image} style={{ height: "200px", width: "100%" ,marginBottom:"8px"}} />
+      {/* <div className='item'> */}
+      <img  className='center'   src={data.image} style={{ height: "200px", width: "50%", marginBottom: "8px" ,margin:"50px"}} />
       <div className='d-flex justify-content-between'>
-        <h3 className='mx-3 bg-light text-danger px-2'>{data.name}</h3>
-        <h2 className='mx-4 bg-info text-light px-3'> ${data.price}</h2>
+        <h3 className='mx-3-bg-light-text-danger-px-2'>{data.name}</h3>
+        <h2 className='mx-4-bg-info-text-light-px-3'> ${data.price}</h2>
       </div>
-      <h6>{data.description}</h6>
+      <h6 className='desc'>{data.description}</h6>
 
       <div className='qwt_set_btn'>
         {/* <a href="#" className="btn btn-primary " </a> */}

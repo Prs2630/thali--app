@@ -15,9 +15,9 @@ const Navbar = () => {
         <input type="text" className='search_input' placeholder='search Your ' />
 
       </div>
- 
+
       <div className="cart">
-      
+
         <button className='btn_cart'>
           view Cart <button className='btn_qwt_state'>{thali.length} </button></button>
 
